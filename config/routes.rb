@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   scope path: '/', controller: :playlists do
     get 'playlists' => :generate_playlist
     post 'playlists' => :save_playlist
@@ -10,5 +11,10 @@ Rails.application.routes.draw do
   scope path: '/', controller: :moods do
     get 'moods' => :index
   end
+  scope path: '/', controller: :reference do
+    get 'apireference' => :apireference
+  end
+
+  root 'reference#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

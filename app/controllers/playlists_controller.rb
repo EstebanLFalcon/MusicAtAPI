@@ -21,12 +21,14 @@ class PlaylistsController < ApplicationController
     #   temp_mood = 'party'
 
       place = Place.where(:name => 'beach').first
-      mood = Mood.where(:emotional_state => 'chill').first
+      mood = Mood.where(:emotional_state => 'party').first
       genres_array = (PlaceMoodGenre.where(:places_id => place.id, :moods_id => mood.id)).collect{|genre| (!genre.name.include? '-')? genre.name : '' }
       genres_array = genres_array.reject{|genre| genre.empty?}
+      RSpotify.raw_response = true
       recommendations = RSpotify::Recommendations.generate(seed_genres: genres_array, market: 'MX', min_popularity: 30,
                                                            target_acousticness: mood.acousticness.to_f, target_danceability: mood.danceability.to_f,
                                                            target_valence: mood.valence.to_f, target_tempo: mood.tempo.to_i)
+      RSpotify.raw_response = false
       recommendations
     # end
   end
