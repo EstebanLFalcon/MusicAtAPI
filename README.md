@@ -6,10 +6,10 @@ The main endpoint is 'http://musicatapi.heroku.com/playlists'
 
 ##Requests
 It is based on the REST principles, so all the information can be accessed via standard HTTP Requests.
-Like 'GET' and 'POST'
+Like `GET` and `POST`
 
 ##Getting Started
-. To get started, make sure you have a Spotify account, if you don't have one, you can create one [here](https://www.spotify.com/)
+To get started, make sure you have a Spotify account, if you don't have one, you can create one [here](https://www.spotify.com/)
 Then:
 
 * Think of a place you want to go
@@ -21,4 +21,4 @@ Then:
 * Used the generated playlists as you wish
 
 For example:
-' GET "http://musicatapi.heroku.com/playlists/?place=beach&mood=party"'
+` GET "http://musicatapi.heroku.com/playlists/?place=beach&mood=party"`
