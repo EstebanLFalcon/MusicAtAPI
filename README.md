@@ -11,11 +11,17 @@ Like `GET` and `POST`.
 ###Response type
 All the responses are in json format and use the following response types.
 
-| Code        | Description           |
-| ------------- |:-------------:|
-| 200    | succesful request. |
-| 400      | the request could not be processed due to bad syntax.      |
-| 404 | Could not be found.      |
+| Code        | Description  
+| ---|---
+| 200    | succesful request.
+| 400      | the request could not be processed due to bad syntax.
+| 404 | Could not be found.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 ##Getting Started
 To get started, make sure you have a Spotify account, if you don't have one, you can create one [here](https://www.spotify.com/).
