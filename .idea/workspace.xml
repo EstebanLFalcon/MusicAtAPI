@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d804756-8259-4041-ae2c-c53c1ee15f7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/REFERENCE.md" afterPath="$PROJECT_DIR$/REFERENCE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/moods_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/moods_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/places_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/places_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/.sprockets-manifest-44af56154a912ecea7d38ae0e69b8abc.json" afterPath="$PROJECT_DIR$/public/assets/.sprockets-manifest-44af56154a912ecea7d38ae0e69b8abc.json" />
     </list>
     <ignored path="MusicAtAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,8 +15,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MusicAtAPI@assets_precompile__MusicAtAPI.coverage" NAME="assets:precompile: MusicAtAPI Coverage Results" MODIFIED="1480037632492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="MusicAtAPI" />
     <SUITE FILE_PATH="coverage/MusicAtAPI@Production__MusicAtAPI.coverage" NAME="Production: MusicAtAPI Coverage Results" MODIFIED="1480037856300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="MusicAtAPI" />
+    <SUITE FILE_PATH="coverage/MusicAtAPI@assets_precompile__MusicAtAPI.coverage" NAME="assets:precompile: MusicAtAPI Coverage Results" MODIFIED="1480054870996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="MusicAtAPI" />
     <SUITE FILE_PATH="coverage/MusicAtAPI@db_migrate__MusicAtAPI.coverage" NAME="db:migrate: MusicAtAPI Coverage Results" MODIFIED="1479970994354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="MusicAtAPI" />
     <SUITE FILE_PATH="coverage/MusicAtAPI@secret__MusicAtAPI.coverage" NAME="secret: MusicAtAPI Coverage Results" MODIFIED="1480036545013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="MusicAtAPI" />
     <SUITE FILE_PATH="coverage/MusicAtAPI@assets_environment__MusicAtAPI.coverage" NAME="assets:environment: MusicAtAPI Coverage Results" MODIFIED="1480037594858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="MusicAtAPI" />
@@ -366,7 +364,7 @@
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
   </component>
-  <component name="RunManager" selected="Rails.Development: MusicAtAPI">
+  <component name="RunManager" selected="Rake.assets:precompile: MusicAtAPI">
     <configuration default="false" name="db:migrate: MusicAtAPI" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="MusicAtAPI" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -655,27 +653,27 @@
       <updated>1479353615950</updated>
       <workItem from="1479353617250" duration="4054000" />
       <workItem from="1479418514916" duration="34273000" />
-      <workItem from="1479979168322" duration="16369000" />
+      <workItem from="1479979168322" duration="16555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54696000" />
+    <option name="totallyTimeSpent" value="54882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="2413" height="1311" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19958246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34411278" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34411278" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
