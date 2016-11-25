@@ -12,7 +12,7 @@ The `GET` reponse has the following structure:
 
 ![Screenshot](https://github.com/EstebanLFalcon/MusicAtAPI/blob/master/app/assets/images/response_json.PNG "playlists response")
 
- We do not show the raw data json as we beleive the structured json is the best way to visualize the data.
+ We do not show the raw data json as we believe the structured json is the best way to visualize the data.
 
 ###POST playlist example
 A `POST` would go as follows:
