@@ -1,10 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width">
+
+    <title>Music At API</title>
+
+    <!-- Flatdoc -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/legacy.js'></script>
+    <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/flatdoc.js'></script>
+
+    <!-- Flatdoc theme -->
+    <link  href='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/style.css' rel='stylesheet'>
+    <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/script.js'></script>
+    <link  href='support/theme.css?94850' rel='stylesheet'>
+    <script src='support/theme.js?94850'></script>
+
+    <!-- Meta -->
+    <meta content="Music At API" property="og:title">
+    <meta content="A playlist for every place." name="description">
+
+    <!-- Initializer -->
+    <script>
+        Flatdoc.run({
+            fetcher: Flatdoc.github('EstebanLFalcon/MusicAtAPI')
+        });
+    </script>
 </head>
-<body>
+<body role='flatdoc'>
+
+<div class='header'>
+    <div class='left'>
+        <h1>Music At API</h1>
+        <ul>
+            <li><a href='https://github.com/EstebanLFalcon/MusicAtAPI'>View on GitHub</a></li>
+            <li><a href='https://github.com/EstebanLFalcon/MusicAtAPI/issues'>Issues</a></li>
+            <li><a href='apireference'>API reference</a></li>
+        </ul>
+    </div>
+    <div class='right'>
+        <!-- GitHub buttons: see http://ghbtns.com -->
+        <iframe src="http://ghbtns.com/github-btn.html?user=EstebanLFalcon&amp;type=follow&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20"></iframe>
+        <iframe src="http://ghbtns.com/github-btn.html?user=EstebanLFalcon&amp;repo=MusicAtAPI&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+    </div>
+</div>
+
+<div class='content-root'>
+    <div class='menubar'>
+        <div class='menu section' role='flatdoc-menu'></div>
+    </div>
+    <div role='flatdoc-content' class='content'></div>
+</div>
 
 </body>
 </html>
