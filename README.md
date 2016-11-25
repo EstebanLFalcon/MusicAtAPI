@@ -11,11 +11,11 @@ Like `GET` and `POST`.
 ###Response type
 All the responses are in json format and use the following response types.
 
-| Code        | Description  
-| ---|---
-| 200    | succesful request.
-| 400      | the request could not be processed due to bad syntax.
-| 404 | Could not be found.
+| Code | Description                                           |
+|------|-------------------------------------------------------|
+| 200  | Succesful request.                                    |
+| 400  | The request could not be processed due to bad syntax. |
+| 404  | Could not be found.                                   |
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
