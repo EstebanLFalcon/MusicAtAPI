@@ -30,6 +30,8 @@ class PlaylistsController < ApplicationController
                                                            target_valence: mood.valence.to_f, target_tempo: mood.tempo.to_i)
       RSpotify.raw_response = false
       recommendations
+      recommendations_json = JSON.parse(recommendations)
+      recommendations_json
     # end
   end
   def save_playlist
