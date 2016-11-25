@@ -1,34 +1,40 @@
 # Endpoints
 
-This API iasdasdasdaasdaass designed to provide spotify playlists based on a generic place and/or a current mood. 
-To use the API, the client must have a Spotify account to grant permissions. 
-The main endpoint is `http://musicatapi.heroku.com/playlists`
+The API endpoints give access to the information you want to access.
 
 ##Playlists
-It is based on the REST principles, so all the information can be accessed via standard HTTP Requests.
-Like `GET` and `POST`
+Here's where you `GET` or `POST` your favorite generated playlists.
+
 ###GET playlist example
+A `GET` would go as follows:
+`GET https://mymusicatapi.heroku.com/playlists/?place=beach&mood=party`.
+The `GET` reponse has the following structure:
+[logo]: https://github.com/EstebanLFalcon/MusicAtAPI/tree/master/app/assets/images/response_json.PNG"response"
+ We do not show the raw data json as we beleive the structured json is the best way to visualize the data.
+
 ###Post playlist example
+A `POST` would go as follows:
+`POST https://mymusicatapi.heroku.com/playlists/`.
+The parameters of the POST method have to be the same as the ones returned by the `GET` and we will not add them to the url for clarity.
 
 ##Moods
-To get started, make sure you have a Spotify account, if you don't have one, you can create one [here](https://www.spotify.com/)
-Then:
-
-* Think of a place you want to go
-
-* Add your current mood to it
-
-* Make a Call to the API using those parameters
-
-* Use the generated playlists as you wish
-
-For example:
-` GET "http://musicatapi.heroku.com/playlists/?place=beach&mood=party"`
+Here's where you `GET` the available moods that you can send as a parameter.
 
 ###GET moods example
+A `GET` would go as follows:
+`GET https://mymusicatapi.heroku.com/moods`.
+The `GET` reponse has the following structure:
+[logo]: https://github.com/EstebanLFalcon/MusicAtAPI/tree/master/app/assets/images/moods_json.PNG"response"
+Note that we do show the raw response as it is easy to read.
 
 ##Places
-
+Here's where you `GET` the available places that you can send as a parameter.
 ###GET Places example
+A `GET` would go as follows:
+`GET https://mymusicatapi.heroku.com/places`.
+The `GET` reponse has the following structure:
+[logo]: https://github.com/EstebanLFalcon/MusicAtAPI/tree/master/app/assets/images/places_json.PNG"response"
+Note that we do show the raw response as it is easy to read.
 
 #Object reference
+To get the full documentation of the track object, please visit [here](https://developer.spotify.com/web-api/object-model/#track-object-full)
