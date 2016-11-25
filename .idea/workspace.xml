@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d804756-8259-4041-ae2c-c53c1ee15f7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/reference/apireference.html" afterPath="$PROJECT_DIR$/app/views/reference/apireference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/REFERENCE.md" afterPath="$PROJECT_DIR$/REFERENCE.md" />
     </list>
     <ignored path="MusicAtAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reference_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reference_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/reference_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
@@ -62,24 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="REFERENCE.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/REFERENCE.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apireference.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="apireference.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/reference/apireference.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="572">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -177,6 +164,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/reference/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/reference/apireference.html" />
+        <option value="$PROJECT_DIR$/REFERENCE.md" />
       </list>
     </option>
   </component>
@@ -615,12 +603,12 @@
       <updated>1479353615950</updated>
       <workItem from="1479353617250" duration="4054000" />
       <workItem from="1479418514916" duration="34273000" />
-      <workItem from="1479979168322" duration="12764000" />
+      <workItem from="1479979168322" duration="13443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51091000" />
+    <option name="totallyTimeSpent" value="51770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="2413" height="1311" extended-state="0" />
@@ -946,17 +934,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/REFERENCE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/blur-8ae7000cc5072352c13201d8d8efa7d50fe4a71a02b980aedd1a98a7153edb69.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -967,7 +944,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -991,14 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/reference_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1045,8 +1014,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/reference/apireference.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="572">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REFERENCE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/reference_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
