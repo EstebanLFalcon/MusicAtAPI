@@ -10,7 +10,7 @@ A `GET` would go as follows:
 `GET https://mymusicatapi.heroku.com/playlists/?place=beach&mood=party`.
 The `GET` reponse has the following structure:
 
-![Screenshot](https://github.com/EstebanLFalcon/MusicAtAPI/blob/master/app/assets/images/response_json.PNG "playlists response")
+![Image](https://github.com/EstebanLFalcon/MusicAtAPI/blob/master/app/assets/images/response_json.PNG "playlists response")
 
  We do not show the raw data json as we believe the structured json is the best way to visualize the data.
 
@@ -27,7 +27,7 @@ A `GET` would go as follows:
 `GET https://mymusicatapi.heroku.com/moods`.
 The `GET` reponse has the following structure:
 
-![Screenshot](https://github.com/EstebanLFalcon/MusicAtAPI/blob/master/app/assets/images/moods_json.PNG "moods response")
+![Image](https://github.com/EstebanLFalcon/MusicAtAPI/blob/master/app/assets/images/moods_json.PNG "moods response")
 
 Note that we do show the raw response as it is easy to read.
 
@@ -38,7 +38,7 @@ A `GET` would go as follows:
 `GET https://mymusicatapi.heroku.com/places`.
 The `GET` reponse has the following structure:
 
-![Screenshot](https://github.com/EstebanLFalcon/MusicAtAPI/blob/master/app/assets/images/places_json.PNG "places response")
+![Image](https://github.com/EstebanLFalcon/MusicAtAPI/blob/master/app/assets/images/places_json.PNG "places response")
 
 Note that we do show the raw response as it is easy to read.
 
