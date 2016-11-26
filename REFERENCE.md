@@ -1,6 +1,6 @@
 # Endpoints
 
-The API endpoints give access to the information you want to access.
+The API endpoints give access to the information you want.
 
 ##Playlists
 Here's where you `GET` or `POST` your favorite generated playlists.
