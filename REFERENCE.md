@@ -17,7 +17,7 @@ The `GET` reponse has the following structure:
 ###POST playlist example
 A `POST` would go as follows:
 `POST https://mymusicatapi.heroku.com/playlists/`.
-The parameters of the POST method have to be the same as the ones returned by the `GET` and we will not add them to the url for clarity.
+The parameters of the POST method have to an array of track ids and we will not add them to the url for clarity.
 
 ##Moods
 Here's where you `GET` the available moods that you can send as a parameter.

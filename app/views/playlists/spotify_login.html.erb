@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" id="backbtn">Back<input/>
+</body>
+<script>
+document.getElementById('backbtn').addEventListener('click', function() {
+window.location = document.referrer + '?user_id=<%= @user_id %>';
+}, false);
+</script>
+</html>
