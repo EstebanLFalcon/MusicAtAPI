@@ -1,7 +1,6 @@
 class MoodsController < ApplicationController
   def index
     moods = Mood.all
-    moods_json = moods.to_json
-    moods_json
+    render json: moods.to_json, status: 200
   end
 end

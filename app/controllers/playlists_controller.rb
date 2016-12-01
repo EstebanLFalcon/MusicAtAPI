@@ -76,9 +76,9 @@ class PlaylistsController < ApplicationController
   end
 
   def save_playlist
-    if(params[:user_id])
+    user = User.find_by(:user_id => params[:user_id])
+    if(user)
       tracks = params[:tracks]
-      user = User.find_by(:user_id => params[:user_id])
       user_hash = user.user_info
       user_hashed = user_hash.to_hash
       spotify_user = RSpotify::User.new(user_hashed)
@@ -89,7 +89,7 @@ class PlaylistsController < ApplicationController
       if(playlist.tracks.size >= 1)
         render json: {:playlist_id => playlist.id }.to_json, status: 200
       else
-        render json: { errors: 'Bad syntax' }.to_json, status: 400
+        render json: { errors: 'Could not create playlist' }.to_json, status: 400
       end
     else
       render json: { errors: 'User not found' }, status: 404

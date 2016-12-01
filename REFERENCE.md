@@ -37,6 +37,7 @@ The `GET` reponse has the following structure:
     {
         "emotional_state": "party"
     },
+]
 ```
 
 
@@ -61,6 +62,7 @@ The `GET` reponse has the following structure:
     {
         "name": "travel"
     },
+]
 ```
 
 
