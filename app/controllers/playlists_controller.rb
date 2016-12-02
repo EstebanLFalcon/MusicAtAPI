@@ -100,7 +100,7 @@ class PlaylistsController < ApplicationController
     temp_data = spotify_user.to_hash
     user = User.first_or_create!(user_id: spotify_user.id, user_info: temp_data)
     if(user)
-        @user_id = spotify_user.id
+        @user_id = user.id
     else
         @user_id = ''
     end
