@@ -71,11 +71,12 @@ class PlaylistsController < ApplicationController
       render json: { errors: 'User not found' }, status: 404
     end
   rescue
-    render json: { errors: 'Bad syntax' }, status: 400
+    render json: { errors: 'Bad request' }, status: 400
     end
   end
 
   def save_playlist
+    begin
     user = User.find_by(:user_id => params[:user_id])
     if(user)
       tracks = params[:tracks]
@@ -87,22 +88,29 @@ class PlaylistsController < ApplicationController
       tracks_array = RSpotify::Base.find(tracks, 'track')
       playlist.add_tracks!(tracks_array)
       if(playlist.tracks.size >= 1)
-        render json: {:playlist_id => playlist.id }.to_json, status: 200
+        render json: {:playlist_id => playlist.id.to_s }.to_json, status: 200
       else
         render json: { errors: 'Could not create playlist' }.to_json, status: 400
       end
     else
       render json: { errors: 'User not found' }, status: 404
     end
+    rescue
+      render json: { errors: 'Bad request' }, status: 400
+    end
   end
   def spotify_login
+    begin
     spotify_user = RSpotify::User.new(request.env['omniauth.auth'])
     temp_data = spotify_user.to_hash
-    user = User.first_or_create!(user_id: spotify_user.id, user_info: temp_data)
+    user = User.find_or_create_by(user_id: spotify_user.id, user_info: temp_data)
     if(user)
         @user_id = user.user_id
     else
-        @user_id = ''
+      render json: { errors: 'Could not create user' }, status: 400
+    end
+    rescue
+      render json: { errors: 'Bad request' }, status: 400
     end
   end
 end
