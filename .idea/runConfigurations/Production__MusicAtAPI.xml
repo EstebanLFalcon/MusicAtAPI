@@ -9,7 +9,7 @@
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
     <envs>
       <env name="SSL_CERT_FILE" value="C:\Users\esteban\.RubyMine2016.2\system\cacert.pem" />
-      <env name="SECRET_KEY_BASE" value="a23d0d8183d5d7381922250f974b535aaee955868cdb19c1efbf19e19f46ad96d6e36cb466d7de5ae3da356c844dac39fac7d79d67abba664f4e89b801db79fd" />
+      <env name="SECRET_KEY_BASE" value="139ca2472a3baf837f485b7e92ca1a8587b2494ad500c5c031b9a0ab68e7e7c156619fd2f183d127a0b972b239226172a263c95d5250658a3d3960fcce0d98ac" />
     </envs>
     <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
     <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />

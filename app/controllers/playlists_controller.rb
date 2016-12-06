@@ -103,7 +103,10 @@ class PlaylistsController < ApplicationController
     begin
     spotify_user = RSpotify::User.new(request.env['omniauth.auth'])
     temp_data = spotify_user.to_hash
-    user = User.find_or_create_by(user_id: spotify_user.id, user_info: temp_data)
+    user = User.find_or_create_by(user_id: spotify_user.id) do |u|
+      u.user_id = spotify_user.id
+      u.user_info = temp_data
+    end
     if(user)
         @user_id = user.user_id
     else
